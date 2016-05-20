@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "AvenirNext-Bold";
+  src: url("../fonts/6ff8ab07-ccb4-4a91-8f0f-2bd4367902e8.eot?#iefix");
+  src: url("../fonts/6ff8ab07-ccb4-4a91-8f0f-2bd4367902e8.eot?#iefix") format("eot"), url("../fonts/91799b0e-0ef8-446e-b274-5509412e1242.woff2") format("woff2"), url("../fonts/97fb5311-bdbd-46bc-bf69-3bcf8c744cda.woff") format("woff"), url("../fonts/88093bd3-b377-4278-8abe-8460dd24d0e8.ttf") format("truetype"), url("../fonts/0fde1539-69df-4e3d-83ef-ae23d10dd2a5.svg#0fde1539-69df-4e3d-83ef-ae23d10dd2a5") format("svg");
+}
+@font-face {
+  font-family: "AvenirNext-Medium";
+  src: url("../fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix");
+  src: url("../fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix") format("eot"), url("../fonts/627fbb5a-3bae-4cd9-b617-2f923e29d55e.woff2") format("woff2"), url("../fonts/f26faddb-86cc-4477-a253-1e1287684336.woff") format("woff"), url("../fonts/63a74598-733c-4d0c-bd91-b01bffcd6e69.ttf") format("truetype"), url("../fonts/a89d6ad1-a04f-4a8f-b140-e55478dbea80.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80") format("svg");
+}
+@font-face {
+  font-family: "AvenirNext-Medium-Italic";
+  src: url("../fonts/77a9cdce-ea6a-4f94-95df-e6a54555545e.eot?#iefix");
+  src: url("../fonts/77a9cdce-ea6a-4f94-95df-e6a54555545e.eot?#iefix") format("eot"), url("../fonts/3f380a53-50ea-4a62-95c5-d5d8dba03ab8.woff2") format("woff2"), url("../fonts/8344e877-560d-44d4-82eb-9822766676f9.woff") format("woff"), url("../fonts/b28b01d9-78c5-46c6-a30d-9a62c8f407c5.ttf") format("truetype"), url("../fonts/ed4d3c45-af64-4992-974b-c37cd12a9570.svg#ed4d3c45-af64-4992-974b-c37cd12a9570") format("svg");
+}
+/* line 18, main.scss */
+header .logo, .header .logo {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 25, main.scss */
+body, .body {
+  background-color: orange;
+  height: 912px;
+  overflow: hidden;
+  position: relative;
+  width: 1366px;
+}
+
+/* line 32, main.scss */
+.footer {
+  bottom: 0;
+  background: url("../images/menu_bg.png") no-repeat left top;
+  height: 69px;
+  left: 0;
+  position: fixed;
+  width: 1366px;
+}
+/* line 39, main.scss */
+.footer ul {
+  display: flex;
+  float: left;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 0px;
+  width: 100%;
+}
+/* line 47, main.scss */
+.footer ul li {
+  float: left;
+  margin: 0px;
+  padding: 0px 0px 0px 15px;
+}
+/* line 51, main.scss */
+.footer ul li a {
+  font-family: 'AvenirNext-Medium';
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px 12px;
+  color: #5c7000;
+  line-height: 69px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 62, main.scss */
+.footer ul li a:hover {
+  color: #fff;
+}
+/* line 66, main.scss */
+.footer ul li:first-child {
+  padding-left: 0;
+}
+
+/* line 72, main.scss */
+#nav-menu {
+  background-image: url("../images/hv_menu_bg.png");
+  background-repeat: no-repeat;
+  bottom: 68px;
+  height: 164px;
+  left: 0;
+  position: absolute;
+}
+/* line 79, main.scss */
+#nav-menu .green {
+  background-color: rgba(128, 143, 0, 0.5);
+  box-shadow: 6px 0 38px #cdd500;
+}
+/* line 83, main.scss */
+#nav-menu .round-1 {
+  width: 71px;
+  height: 71px;
+}
+/* line 87, main.scss */
+#nav-menu .round-2 {
+  width: 87px;
+  height: 87px;
+}
+/* line 91, main.scss */
+#nav-menu .round-3 {
+  width: 84px;
+  height: 84px;
+}
+/* line 95, main.scss */
+#nav-menu .round-4 {
+  width: 80px;
+  height: 80px;
+}
+/* line 99, main.scss */
+#nav-menu .round-5 {
+  width: 94px;
+  height: 94px;
+}
+/* line 103, main.scss */
+#nav-menu .round-6 {
+  width: 85px;
+  height: 85px;
+}
+/* line 107, main.scss */
+#nav-menu .round-7 {
+  width: 84px;
+  height: 84px;
+}
+/* line 111, main.scss */
+#nav-menu .round-9 {
+  width: 100px;
+  height: 100px;
+}
+/* line 115, main.scss */
+#nav-menu .round-9 {
+  width: 64px;
+  height: 64px;
+}
+/* line 119, main.scss */
+#nav-menu .round-9 {
+  width: 93px;
+  height: 93px;
+}
+
+/* line 125, main.scss */
+.round {
+  border-radius: 50%;
+}

@@ -1,0 +1,8 @@
+<div ng-controller="HomeCtrl">
+  <div id="home" ng-show='!showActions' ng-swipe-left="goNext()">
+      <h2 ng-bind-html="homeTitle">{{ homeTitle }}</h2>
+      <div ng-bind-html="homeContent">{{ homeContent }}</div>
+  </div>
+    <a ng-click="goTo('/sect/1')">test</a>
+    <p><a href="#" target="_blank">blank test</a></p>  
+</div>

@@ -1,0 +1,23 @@
+<nav ng-controller="FooterCtrl">
+  <ul>
+    <li>
+      <a ng-click="menuShow = !menuShow">Menu</a>
+      <ul ng-show="menuShow" id="nav-menu">
+        <li class="round-1"><a ng-click="goTo('/sect/0')" class="round green"><span class="menu-icon"></span><span class="link">test</span></a></li>
+        <li class="round-2"><a ng-click="goTo('/sect/1')" class="round green"><span class="menu-icon"></span><span class="link">test</span></a></li>
+        <li class="round-3"><a ng-click="goTo('/sect/2')" class="round green"><span class="menu-icon"></span><span class="link">test</span></a></li>
+        <li class="round-4"><a ng-click="goTo('/sect/3')" class="round green"><span class="menu-icon"></span><span class="link">test</span></a></li>
+        <li class="round-5"><a ng-click="goTo('/sect/4')" class="round green"><span class="menu-icon"></span><span class="link">test</span></a></li>
+        <li class="round-6"><a ng-click="goTo('/sect/5')" class="round green"><span class="menu-icon"></span><span class="link">test</span></a></li>
+        <li class="round-7"><a ng-click="goTo('/sect/6')" class="round green"><span class="menu-icon"></span><span class="link">test</span></a></li>
+        <li class="round-8"><a ng-click="goTo('/sect/7')" class="round green"><span class="menu-icon"></span><span class="link">test</span></a></li>
+        <li class="round-9"><a ng-click="goTo('/sect/8')" class="round green"><span class="menu-icon"></span><span class="link">test</span></a></li>
+        <li class="round-10"><a ng-click="goTo('/sect/9')" class="round green"><span class="menu-icon"></span><span class="link">test</span></a></li>
+      </ul>
+    </li>
+    <li><a ng-click="goTo('/sect/1')">Important Safety Information</a></li>
+    <li><a ng-click="goTo('/sect/2')">Prescribing Information</a></li>
+    <li><a ng-click="goTo('/sect/3')">Instructions For Use</a></li>
+    <li><a ng-click="goTo('/sect/4')">References</a></li>
+  </ul>
+</nav>
